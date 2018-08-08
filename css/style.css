@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+.content img {
+    width:100%;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+
+/* Menu Css*/
+#menu{
+    width: 100%;  
+}
+ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    min-height: 213px;
+    background: #eee;
+    border-right: 1px solid #000;
+}
+li{
+    list-style:none; 
+}
+a{
+    text-decoration:none;
+}
+.cl-menu li i{
+    color: #666;
+    right: 0;
+    float: right;
+}
+.cl-menu li a{
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.cl-menu li a:hover{
+    background-color: green;
+}
+.cl-menu li ul{
+    position: absolute;
+    top: 0%;
+    left: 100.6%;
+    right: 3px;   
+    display:none;
+    width: 100%;
+}
+.cl-menu li:hover > ul{
+    display:block;
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+
+
+/******* Ended Menu CSS **********/
+
+
+

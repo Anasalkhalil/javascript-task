@@ -1,0 +1,38 @@
+@media(max-width: 720px){
+    .column {
+        width: 50%;
+    }
+    .main {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+@media(max-width: 550px){
+    .column {
+        width: 100%;
+    }
+    .cl-menu li ul{
+        position: initial;
+        top: 0%;
+        left: 100.6%;
+        right: 3px;
+        
+        display:none;
+        width: 100%;
+    }
+    ul{
+        
+        width: 100%;
+        min-height: 13px;
+        border-right: 0;
+
+        
+    }
+    .main {
+        max-width: 100%;
+    }
+    .content h4,.content p{
+        font-size: 80%;
+    }
+   
+}
